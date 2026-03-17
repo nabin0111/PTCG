@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb
+
+# Result and evaluation directories
+base_llm_results/
+baseline_results/
+evaluation/delta/
+evaluation/old/
+evaluation/*/old/
+evaluation/*/others/
+evaluation/pairwise/evaluate_each.sh
+results/
+
+# Ignore evaluation outputs
+evaluation/**/*.json
+evaluation/**/*.jsonl
+evaluation/**/*.csv

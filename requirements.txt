@@ -1,0 +1,6 @@
+accelerate==0.34.2
+transformers==4.56.2
+numpy==1.26.4
+openai==1.76.2
+vllm==0.8.5
+backoff==2.2.1
